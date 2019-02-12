@@ -397,4 +397,33 @@ body {
   max-width: 100%;
 }
 
+.Buttons {
+  display: flex;
+  justify-content: center;
+}
+.Buttons__Button {
+  background: #F86363;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  color: #e4e4e4;
+  margin: 20px;
+  padding: 20px;
+}
+
+.Headers {
+  text-align: center;
+}
+.Headers__Title {
+  font-family: "Righteous", cursive;
+  color: #F86363;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=Main.css.map */
