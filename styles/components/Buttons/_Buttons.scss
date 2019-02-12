@@ -1,0 +1,26 @@
+// Buttons | 11/2/19
+
+.Buttons {
+
+    display: flex;
+    justify-content: center;
+
+    &__Button {
+
+        background: #F86363;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: Helvetica;
+        color: #e4e4e4;
+        margin: 20px;
+        padding: 20px;
+
+    }
+
+}
