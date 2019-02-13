@@ -458,6 +458,86 @@ body {
   max-width: 100%;
 }
 
+.LiveCallFloating {
+  display: block;
+  max-width: 90%;
+  position: fixed;
+  height: 60px;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.LiveCallFloating__Wrapper {
+  height: 100%;
+}
+.LiveCallFloating__ContentContainer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.LiveCallFloating__ButtonContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px 40px;
+}
+.LiveCallFloating__Button {
+  border-radius: 50px;
+  padding: 8px 50px;
+  text-align: center;
+  border: none;
+  background: #73f1df;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #0d7364;
+}
+.LiveCallFloating__Button:focus {
+  outline-color: #73f1df;
+}
+.LiveCallFloating__ButtonCopy {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 150px;
+  padding: 5px 8px;
+}
+
+.LiveCallFloating__ImageContainer {
+  width: 50%;
+  text-align: center;
+}
+.LiveCallFloating__Image {
+  max-width: 100%;
+  height: 100%;
+}
+
+.LiveCallFloating__VideoContainer {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.LiveCallFloating__Video {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  max-width: 100%;
+}
+
 .Buttons {
   display: flex;
   justify-content: center;

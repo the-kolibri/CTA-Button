@@ -1,0 +1,43 @@
+// LiveCallFloating | 11/2/19
+
+.LiveCallFloating {
+
+    &__ButtonContainer {
+
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 0px 40px;
+
+    }
+
+    &__Button {
+
+        border-radius: 50px;
+        padding: 8px 50px;
+        text-align: center;
+        border: none;
+        background: #73f1df;
+        font-family: Helvetica;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #0d7364;
+
+        &:focus {
+            outline-color: #73f1df;
+        }
+    }
+
+    &__ButtonCopy {
+
+        text-align: center;
+        font-family: Helvetica;
+        font-size: 10px;
+        color: #ffffff;
+        text-transform: uppercase;
+        width: 150px;
+        padding: 5px 8px;
+
+    }
+}
