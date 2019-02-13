@@ -25,3 +25,18 @@
 
     }
 }
+
+.Position {
+
+    &-Below {
+
+        position: fixed;
+        top: 0;
+
+    }
+
+    &-Bottom {
+        position: fixed;
+        bottom: 0;
+    }
+}

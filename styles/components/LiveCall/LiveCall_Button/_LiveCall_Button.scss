@@ -5,6 +5,9 @@
     &__ButtonContainer {
 
         width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
 
     }
 
@@ -14,5 +17,10 @@
         padding: 8px 50px;
         text-align: center;
         border: none;
+        background: #73f1df;
+        font-family: Helvetica;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #0d7364;
     }
 }
