@@ -495,6 +495,7 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
+  z-index: 2;
 }
 
 .LiveCallFloating__ButtonContainer {
@@ -514,6 +515,12 @@ body {
   text-transform: uppercase;
   font-size: 14px;
   color: #0d7364;
+  text-shadow: -1px 1px 2px #009688;
+  animation-name: ButtonPulsar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  will-change: transform;
 }
 .LiveCallFloating__Button:focus {
   outline-color: #73f1df;
@@ -542,6 +549,16 @@ body {
   height: 100%;
   overflow: hidden;
   border-radius: 30px;
+  box-shadow: -4px 4px 10px #110f15;
+}
+.LiveCallFloating__VideoContainer::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 255, 208, 0.3);
+  top: 0;
+  z-index: 1;
 }
 .LiveCallFloating__Video {
   width: 100%;
