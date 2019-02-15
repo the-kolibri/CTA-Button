@@ -338,7 +338,7 @@ template {
 }
 
 body {
-  background: #201C28;
+  background: #171717;
 }
 
 .LiveCall {
@@ -352,7 +352,7 @@ body {
   height: 100%;
   position: absolute;
   z-index: 2;
-  background: linear-gradient(to right, #068673 70%, #ffff0000 100%);
+  background: linear-gradient(to right, #3a3a3a 70%, #ffff0000 100%);
   left: 0;
   top: 0;
 }
@@ -362,7 +362,7 @@ body {
   height: 100%;
   position: absolute;
   z-index: 1;
-  background: linear-gradient(to left, #068673 70%, #ffff0000 100%);
+  background: linear-gradient(to left, #3a3a3a 70%, #ffff0000 100%);
   right: 0;
   top: 0;
 }
@@ -377,7 +377,7 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: rgba(3, 134, 115, 0.5);
+  background: rgba(0, 0, 0, 0.9);
   z-index: 1;
 }
 .LiveCall__ContentContainer {
@@ -411,12 +411,12 @@ body {
   padding: 8px 50px;
   text-align: center;
   border: none;
-  background: #73f1df;
+  background: #F5515F;
   font-family: Helvetica;
   text-transform: uppercase;
   font-size: 14px;
   color: #ffffff;
-  text-shadow: -1px 1px 2px #009688;
+  text-shadow: -1px 1px 2px #F5515F;
   animation-name: ButtonPulsar;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -424,7 +424,7 @@ body {
   will-change: transform;
 }
 .LiveCall__Button:focus {
-  outline-color: #73f1df;
+  outline-color: #F5515F;
 }
 .LiveCall__ButtonCopy {
   text-align: center;
@@ -442,7 +442,7 @@ body {
   }
   50% {
     transform: scale(1.1);
-    box-shadow: -2px 2px 2px #07483e;
+    box-shadow: -2px 2px 2px #4e1b20;
   }
   100% {
     transform: scale(1);
