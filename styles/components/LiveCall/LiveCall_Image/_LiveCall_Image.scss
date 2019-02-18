@@ -4,8 +4,9 @@
 
     &__ImageContainer {
 
-        padding: 0 40px;
+        padding: 0 0 0 10%;
         width: 50%;
+        box-sizing: border-box;
     }
 
     &__Image {

@@ -246,7 +246,7 @@ template {
 }
 .LiveCall::before {
   content: "";
-  background: linear-gradient(to right, #068673 70%, rgba(6, 134, 115, 0) 100%);
+  background: linear-gradient(to right, #2b9081 70%, rgba(43, 144, 129, 0) 100%);
   height: 100%;
   left: 0;
   position: absolute;
@@ -256,7 +256,7 @@ template {
 }
 .LiveCall::after {
   content: "";
-  background: linear-gradient(to left, #068673 70%, rgba(6, 134, 115, 0) 100%);
+  background: linear-gradient(to left, #2b9081 70%, rgba(43, 144, 129, 0) 100%);
   height: 100%;
   position: absolute;
   right: 0;
@@ -272,7 +272,7 @@ template {
 }
 .LiveCall__Wrapper::before {
   content: "";
-  background: rgba(6, 134, 115, 0.5);
+  background: rgba(43, 144, 129, 0.5);
   height: 100%;
   position: absolute;
   width: 100%;
@@ -290,12 +290,12 @@ template {
 .Position-Below {
   position: fixed;
   top: 0;
-  box-shadow: 0 3px 6px #332e48;
+  box-shadow: 0 3px 6px #3a3452;
 }
 .Position-Bottom {
   position: fixed;
   bottom: 0;
-  box-shadow: 0 -3px 6px #332e48;
+  box-shadow: 0 -3px 6px #3a3452;
 }
 
 .LiveCall__ButtonContainer {
@@ -303,17 +303,21 @@ template {
   display: flex;
   flex-direction: column;
   width: 50%;
+  padding: 5px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
 }
 .LiveCall__Button {
   border-radius: 50px;
-  padding: 8px 50px;
+  padding: 6px 40px;
   text-align: center;
   border: none;
-  background: #eff173;
+  background: #f16767;
   font-family: Helvetica;
   text-transform: uppercase;
   font-size: 14px;
-  color: red;
+  color: #ffffff;
   animation-name: ButtonPulsar;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -321,16 +325,15 @@ template {
   will-change: transform;
 }
 .LiveCall__Button:focus {
-  outline-color: #eff173;
+  outline-color: #f16767;
 }
 .LiveCall__ButtonCopy {
-  color: black;
+  color: #ffffff;
   font-family: Helvetica;
   font-size: 10px;
-  padding: 5px 8px;
+  padding: 0 0 4px 0;
   text-align: center;
   text-transform: uppercase;
-  width: 150px;
 }
 
 @keyframes ButtonPulsar {
@@ -339,16 +342,17 @@ template {
   }
   50% {
     transform: scale(1.1);
-    box-shadow: -2px 2px 2px #72731e;
-    text-shadow: -1px 1px 2px blue;
+    box-shadow: -2px 2px 2px #1b655a;
+    text-shadow: -1px 1px 2px #8c3333;
   }
   100% {
     transform: scale(1);
   }
 }
 .LiveCall__ImageContainer {
-  padding: 0 40px;
+  padding: 0 0 0 10%;
   width: 50%;
+  box-sizing: border-box;
 }
 .LiveCall__Image {
   height: 100%;
@@ -412,23 +416,22 @@ template {
   padding: 8px 50px;
   text-align: center;
   border: none;
-  background: #eff173;
+  background: #ff6464;
   font-family: Helvetica;
   text-transform: uppercase;
   font-size: 14px;
-  color: red;
-  text-shadow: -1px 1px 2px #72731e;
-  animation-name: ButtonPulsar;
+  color: #ffd7d7;
+  animation-name: ButtonFloating;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   will-change: transform;
 }
 .LiveCallFloating__Button:focus {
-  outline-color: #eff173;
+  outline-color: #ff6464;
 }
 .LiveCallFloating__ButtonCopy {
-  color: black;
+  color: #ffffff;
   font-family: Helvetica;
   font-size: 10px;
   padding: 5px 8px;
@@ -437,6 +440,19 @@ template {
   width: 150px;
 }
 
+@keyframes ButtonFloating {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: -3px 3px 3px #37393a;
+    text-shadow: -1px 1px 2px #bf4747;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .LiveCallFloating__ImageContainer {
   text-align: center;
   width: 50%;
@@ -455,7 +471,7 @@ template {
 }
 .LiveCallFloating__VideoContainer::before {
   content: "";
-  background: rgba(255, 0, 0, 0.3);
+  background: rgba(49, 56, 62, 0.8);
   height: 100%;
   position: absolute;
   top: 0;
