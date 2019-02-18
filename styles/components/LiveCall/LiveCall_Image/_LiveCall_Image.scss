@@ -1,0 +1,27 @@
+// LiveCall Image | Raptor v0.0.2
+
+.LiveCall {
+
+    &__ImageContainer {
+
+        padding: 0 40px;
+        width: 50%;
+    }
+
+    &__Image {
+
+        height: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .LiveCall {
+
+        &__ImageContainer {
+
+            padding: 2%;
+        }
+    }
+}
