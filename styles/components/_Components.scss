@@ -1,21 +1,7 @@
-// Components File | 11/2/19
-
-// LiveCall
-
-@import './LiveCall/LiveCall';
-
-// LiveCallFloating
-
-@import './LiveCallFloating/LiveCallFloating';
-
-// Buttons
+// Components File | Raptor v0.0.2
 
 @import './Buttons/Buttons';
-
-// Headers
-
 @import './Headers/Headers';
-
-// Text Container
-
+@import './LiveCall/LiveCall';
+@import './LiveCallFloating/LiveCallFloating';
 @import './TextContainer/TextContainer';
