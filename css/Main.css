@@ -195,28 +195,32 @@ template {
 
 .Buttons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .Buttons__Button {
-  background: linear-gradient(to bottom, #f86363 0%, #ffa566 100%);
-  width: 100px;
-  height: 100px;
+  align-items: center;
+  background: #292929;
+  border-radius: 50%;
   display: flex;
   flex-shrink: 0;
-  border-radius: 50%;
+  height: 100px;
   justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: Helvetica;
-  color: #ffffff;
   margin: 2%;
-  font-size: 12px;
-  text-shadow: -1px 1px 2px #ab0d0c;
-  transition: 0.2s ease-in-out;
+  width: 100px;
+}
+.Buttons a {
+  color: #D0D0D0;
+  font-display: auto;
+  font-family: "Righteous", cursive;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  transition: 0.5s ease-out;
   will-change: transform;
 }
-.Buttons__Button:hover {
+.Buttons a:hover {
+  background: #F86363;
+  color: #141414;
   transform: scale(1.2);
 }
 
@@ -224,8 +228,8 @@ template {
   text-align: center;
 }
 .Headers__Title {
+  color: #E5E5E5;
   font-family: "Righteous", cursive;
-  color: #F86363;
   text-transform: uppercase;
 }
 
