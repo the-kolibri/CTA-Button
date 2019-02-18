@@ -1,12 +1,13 @@
-// Headers | 11/2/19
+// Headers File | Raptor v0.0.2
 
 .Headers {
+
     text-align: center;
 
     &__Title {
 
+        color: $K-D4;
         font-family: 'Righteous', cursive;
-        color: #F86363;
         text-transform: uppercase;
 
     }

@@ -1,17 +1,15 @@
-// Main File | 11/2/19
+// Main File | Raptor v0.0.2
 
-// Reset
-
-@import './global/Reset.scss';
+@charset 'utf-8';
 
 // Settings
+@import './settings/Settings';
 
-@import './settings/Settings.scss';
+// Globals
+@import './globals/Globals';
 
-// Global
-
-@import './global/Global.scss';
+// Pages
+@import './pages/Pages';
 
 // Components
-
-@import './components/Components.scss';
+@import './components/Components';
